@@ -21,14 +21,8 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     }
 
     @Override
-    public Fragment getItem(int position) {
-        Fragment fragment;
-        if(position == 0) {
-            fragment = new ImageGridFragment();
-        } else {
-            fragment = new MemeItemFragment();
-        }
-        return fragment;
+    public int getCount() {
+        return 2;
     }
 
     @Override
@@ -41,7 +35,18 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     }
 
     @Override
-    public int getCount() {
-        return 2;
+    public Fragment getItem(int position) {
+        Fragment fragment;
+        if(position == 0) {
+            fragment = new ImageGridFragment();
+        } else {
+            fragment = new MemeItemFragment();
+        }
+        return fragment;
+    }
+
+    @Override
+    public int getItemPosition(Object object) {
+        return super.getItemPosition(object);
     }
 }

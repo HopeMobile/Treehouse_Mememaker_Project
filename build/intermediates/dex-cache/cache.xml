@@ -2,11 +2,32 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\David\Desktop\mememaker\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jar="C:\Users\David\Desktop\mememaker\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="C:\Users\David\Desktop\mememaker\app\build\intermediates\pre-dexed\debug\classes-17d3b4043ada5ede58ae48d6e740992ee2bf5472.jar" />
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\David\Desktop\mememaker\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-86acb24534802ec0ee93331abccb895ff5445f69.jar" />
+    </item>
+    <item
+        jar="C:\Users\David\Desktop\mememaker\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\David\Desktop\mememaker\app\build\intermediates\pre-dexed\debug\classes-87cdb752e98a78f4366c4b7ac7be4a25967a065a.jar" />
+    </item>
+    <item
+        jar="C:\Users\David\Desktop\mememaker\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\David\Desktop\mememaker\app\build\intermediates\pre-dexed\debug\classes-ac5be02b97da0a43ae854ae2bce776ec2444be66.jar" />
+    </item>
+    <item
+        jar="C:\Users\David\Desktop\mememaker\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\David\Desktop\mememaker\app\build\intermediates\pre-dexed\debug\classes-3689c8be293575eff5e32ab3c66d90402eed34e0.jar" />
     </item>
     <item
         jar="C:\Users\David\Desktop\mememaker\app\libs\commons-io-2.4.jar"
@@ -16,11 +37,11 @@
         <dex dex="C:\Users\David\Desktop\mememaker\app\build\intermediates\pre-dexed\debug\commons-io-2.4-bf1a7f0485cb08738686699a0e429bb689affe1b.jar" />
     </item>
     <item
-        jar="C:\Users\David\Desktop\mememaker\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jar="C:\Users\David\Desktop\mememaker\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="C:\Users\David\Desktop\mememaker\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-86acb24534802ec0ee93331abccb895ff5445f69.jar" />
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\David\Desktop\mememaker\app\build\intermediates\pre-dexed\debug\classes-17d3b4043ada5ede58ae48d6e740992ee2bf5472.jar" />
     </item>
     <item
         jar="C:\Users\David\Desktop\AndroidStudio\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
@@ -28,13 +49,6 @@
         revision="23.0.2"
         sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
         <dex dex="C:\Users\David\Desktop\mememaker\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-a71ed81de51354a978e5baaa2c71b95904ae86f7.jar" />
-    </item>
-    <item
-        jar="C:\Users\David\Desktop\mememaker\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="C:\Users\David\Desktop\mememaker\app\build\intermediates\pre-dexed\debug\classes-3689c8be293575eff5e32ab3c66d90402eed34e0.jar" />
     </item>
 
 </items>

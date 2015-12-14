@@ -3,6 +3,8 @@ package com.teamtreehouse.mememaker.ui.fragments;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v4.app.Fragment;
@@ -21,6 +23,7 @@ import com.teamtreehouse.mememaker.adapters.GridViewAdapter;
 import com.teamtreehouse.mememaker.models.ImageGridItem;
 import com.teamtreehouse.mememaker.ui.activities.CreateMemeActivity;
 import com.teamtreehouse.mememaker.ui.activities.MemeSettingsActivity;
+import com.teamtreehouse.mememaker.utils.FileUtilities;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -66,6 +69,12 @@ public class ImageGridFragment extends Fragment {
 
     private ArrayList extractFiles() {
         final ArrayList imageItems = new ArrayList();
+        File [] filteredFiles = FileUtilities.listFiles(this.getActivity());
+        for (File filteredFile : filteredFiles) {
+            Bitmap bitmap = BitmapFactory.decodeFile(filteredFile.getAbsolutePath());
+            ImageGridItem item = new ImageGridItem(bitmap, filteredFile.getName(), filteredFile.getAbsolutePath());
+            imageItems.add(item);
+        }
         return imageItems;
     }
 
